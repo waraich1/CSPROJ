@@ -1,11 +1,10 @@
-def are_valid_groups(a, b):
-    for i in a:
-        indicate = 0
-        for j in b:
-            if i in j:
-                indicate = 1
-                break
-        if indicate == 0:
+def are_valid_groups2(a, b):
+    x = set(a)
+    if (len(x) != len(a)):
+        return False
+
+    for i in b:
+        if (len(i) != 2) and (len(i) != 3):
             return False
 
     return True
