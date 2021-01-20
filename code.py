@@ -1,13 +1,15 @@
 def are_valid_groups(a, b):
     for i in a:
         indicate = 0
-        for j in b:
-            if i in j:
+sadfsdlfmdvmvv
+        for j indsvadf ckvnbvmd b:
+dfkkkkfgj
+            if i in j:kdjsnjdkfan
                 indicate = 1
-                break
+                breaklkmvkfdnagdfnb
         if indicate == 0:
-            return False
+            return Falsevalvknfnvd b
 
-    return True
+    return Truelmdvdbnlk
 
 	
