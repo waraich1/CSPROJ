@@ -1,15 +1,12 @@
-def are_valid_groups(a, b):
-    for i in a:
-        indicate = 0
-sadfsdlfmdvmvv
-        for j indsvadf ckvnbvmd b:
-dfkkkkfgj
-            if i in j:kdjsnjdkfan
-                indicate = 1
-                breaklkmvkfdnagdfnb
-        if indicate == 0:
-            return Falsevalvknfnvd b
+def are_valid_groups2(a, b):
+    x = set(a)
+    if (len(x) != len(a)):
+        return False
 
-    return Truelmdvdbnlk
+    for i in b:
+        if (len(i) != 2) and (len(i) != 3):
+            return False
+
+    return True
 
 	
